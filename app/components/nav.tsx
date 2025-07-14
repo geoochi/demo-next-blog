@@ -9,10 +9,10 @@ const navItems: Record<string, NavItem> = {
   '/': {
     name: 'blog',
   },
-  'https://github.com/geoochi/blog': {
-    name: 'github',
-    target: '_blink',
-  },
+  // 'https://github.com/geoochi/blog': {
+  //   name: 'github',
+  //   target: '_blink',
+  // },
 }
 
 export function Navbar() {
